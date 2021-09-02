@@ -41,11 +41,14 @@
     }
   },
   "cds": {
-    "requires": {
-      "NorthWind": {
-        "kind": "odata",
-        "model": "srv/external/NorthWind"
-      }
-    }
-  }
+		"requires": {
+			"NorthWind": {
+				"kind": "odata",
+				"model": "srv/external/NorthWind",
+				"credentials": {
+					"url": "https://services.odata.org/Experimental/OData/OData.svc"
+				}
+			}
+		}
+	}
 }
